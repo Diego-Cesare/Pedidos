@@ -67,17 +67,18 @@ i {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
     background-color: rgb(255, 255, 255);
     width: 60%;
     margin: 10px;
 }
 
 .form {
+    position: relative;
     display: flex;
     flex-direction: column;
     gap: 30px;
     padding: 20px;
+    height: 85vh;
 }
 
 .form input {
@@ -150,7 +151,10 @@ button{
     color: aliceblue;
     font-size: 22px;
     transition: .3s;
-    width: 60%;
+    width: 50%;
+    position: absolute;
+    bottom: 0;
+    left: 25%;
 }
 
 button:hover {
