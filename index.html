@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="left__box">
+        <div class="menu__title">
+            <i class="ph-bold ph-list"></i>
+            <h1>Menu de pedidos</h1>
+        </div>
+        <div class="menu__box">
+            <nav>
+                <div class="menu__item">
+                    <i class="ph-duotone ph-lightning"></i>
+                    <a class="itemType" href="">Elétrica</a>
+                </div>
+                <div class="menu__item">
+                    <i class="ph-duotone ph-drop"></i>
+                    <a class="itemType" href="">Hidráulica</a>
+                </div>
+                <div class="menu__item">
+                    <i class="ph-duotone ph-hammer"></i>
+                    <a class="itemType" href="">Carpintaria</a>
+                </div>
+                <div class="menu__item">
+                    <i class="ph-duotone ph-house-line"></i>
+                    <a class="itemType" href="">Estrutural</a>
+                </div>
+                <div class="menu__item">
+                    <i class="ph-duotone ph-truck"></i>
+                    <a class="itemType" href="">Transporte</a>
+                </div>
+                <div class="menu__item">
+                    <i class="ph-duotone ph-snowflake"></i>
+                    <a class="itemType" href="">Ar-condicionado</a>
+                </div>
+                <div class="menu__item">
+                    <i class="ph-duotone ph-broom"></i>
+                    <a class="itemType" href="">Limpeza</a>
+                </div>
+                <div class="menu__item">
+                    <i class="ph-duotone ph-exclamation-mark"></i>
+                    <a class="itemType" href="">Outros</a>
+                </div>
+            </nav>
+        </div>
+        <div class="logo__box">
+            <h2>SMECT</h2>
+            <p>Secretária Municipal de Educação Ciência e Tecnologia</p>
+        </div>
+    </div>
+    <div class="center__box">
+        <h1>Informações do pedido</h1>
+        <form target="_blank" action="https://formsubmit.co/diegocesare300491@gmail.com" method="POST" class="form" action="">
+            <div class="name">
+                <input type="text" id="name" name="email" required>
+                <label for="name">Nome da unidade</label>
+            </div>
+            <div class="local">
+                <input type="text" id="local" name="local" required>
+                <label for="local">Endereço</label>
+                <div class="phone">
+                    <input type="text" id="phone" name="phone" required>
+                    <label for="phone">Telefone</label>
+                </div>
+            </div>
+            <div class="type">
+                <span>Tipo de manutenção selecionada:</span>
+                <input type="text" id="selectedOption" name="selectedOption" readonly>
+            </div>
+            <div class="list">
+                <span>Lista de manutenções</span>
+                <textarea name="list" id="list"></textarea>
+            </div>
+        </form>
+        <button type="submit">Enviar pedido</button>
+    </div>
+    <div class="right__box">
+        <h1>Menssagens</h1>
+        <div class="box__msg">
+            <span class="title__msg">Nome da menssagem</span>
+            <div class="msg">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum dicta vero voluptatibus blanditiis
+                    delectus adipisci iste hic dolor esse incidunt, similique quae ratione ut qui, vel, amet tenetur
+                    nobis nulla?</p>
+            </div>
+        </div>
+        <div class="box__msg">
+            <span class="title__msg">Nome da menssagem</span>
+            <div class="msg">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum dicta vero voluptatibus blanditiis
+                    delectus adipisci iste hic dolor esse incidunt, similique quae ratione ut qui, vel, amet tenetur
+                    nobis nulla?</p>
+            </div>
+        </div>
+        <div class="box__msg">
+            <span class="title__msg">Nome da menssagem</span>
+            <div class="msg">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum dicta vero voluptatibus blanditiis
+                    delectus adipisci iste hic dolor esse incidunt, similique quae ratione ut qui, vel, amet tenetur
+                    nobis nulla?</p>
+            </div>
+        </div>
+        <div class="box__msg">
+            <span class="title__msg">Nome da menssagem</span>
+            <div class="msg">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum dicta vero voluptatibus blanditiis
+                    delectus adipisci iste hic dolor esse incidunt, similique quae ratione ut qui, vel, amet tenetur
+                    nobis nulla?</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
